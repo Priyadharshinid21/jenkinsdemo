@@ -15,5 +15,5 @@ class JenkinsdemoApplicationTests {
 		logger.info("FIrst log exececuted");
 		assertEquals(true,true);
 	
-
+	}
 }
