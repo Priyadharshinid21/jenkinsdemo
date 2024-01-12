@@ -9,9 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class JenkinsdemoApplicationTests {
+	public static Logger logger=LoggerFactory.getLogger(JenkinsdemoApplicationTests.class);
 	@Test
 	void contextLoads() {
+		logger.info("FIrst log exececuted");
 		assertEquals(true,true);
-	}
+	
 
 }
